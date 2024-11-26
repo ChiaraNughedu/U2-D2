@@ -105,14 +105,16 @@ main {
 
 iframe,
 section {
-  height: 250px;
+  display: inline-block;
+  height: 260px;
+  margin-bottom: 1em;;
 }
 
 section {
   background-color: #e3e3e3;
-  padding: 1.2em 1em;
-  margin-bottom: 2em;
-  position: relative;
+  padding: 1em 1em;
+  margin-bottom: 5px;
+  
 }
 
 section h2 {
@@ -125,12 +127,12 @@ section h2 {
   background-color: #a3a3a3;
   width: 30%;
   height: 20%;
-  position: absolute;
   top: -10px;
   left: 10px;
 }
 section p {
-  padding-top: 45px;
+  padding-top: 20px;
+  margin-bottom: 10px;
   text-align: left;
 }
 
@@ -245,7 +247,7 @@ code {
 iframe {
   width: 100%;
   height: auto;
-  margin-bottom: 2em;
+  margin-bottom: 0;
   border-radius: 20px;
 }
 
@@ -342,6 +344,7 @@ aside h2 {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 1em;
+  margin-top: 1.5em;
 }
 aside div {
   background-color: #e3e3e3;
